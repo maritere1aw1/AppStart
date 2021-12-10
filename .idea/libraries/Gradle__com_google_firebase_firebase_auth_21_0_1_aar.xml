@@ -6,9 +6,13 @@
       <root url="file://$PROJECT_DIR$/../Gradle/gradle-7.3-all/caches/transforms-3/6c0bc1fc60f3e882501fe867bacb8c15/transformed/jetified-firebase-auth-21.0.1/res" />
       <root url="file://$PROJECT_DIR$/../Gradle/gradle-7.3-all/caches/transforms-3/6c0bc1fc60f3e882501fe867bacb8c15/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../Gradle/gradle-7.3-all/caches/transforms-3/6c0bc1fc60f3e882501fe867bacb8c15/transformed/jetified-firebase-auth-21.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../MIS PROGRAMAS/APK/caches/transforms-3/6c0bc1fc60f3e882501fe867bacb8c15/transformed/jetified-firebase-auth-21.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../MIS PROGRAMAS/APK/caches/transforms-3/6c0bc1fc60f3e882501fe867bacb8c15/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../MIS PROGRAMAS/APK/caches/transforms-3/6c0bc1fc60f3e882501fe867bacb8c15/transformed/jetified-firebase-auth-21.0.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../Gradle/gradle-7.3-all/caches/modules-2/files-2.1/com.google.firebase/firebase-auth/21.0.1/93cfb8e92221edeece91b286008325e05ab1f53f/firebase-auth-21.0.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../MIS PROGRAMAS/APK/caches/modules-2/files-2.1/com.google.firebase/firebase-auth/21.0.1/93cfb8e92221edeece91b286008325e05ab1f53f/firebase-auth-21.0.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

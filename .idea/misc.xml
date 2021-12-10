@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/App Nube de Luna/app/src/main/res/drawable/customborder.xml" value="0.2203125" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/layout/activity_producto.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/layout/activity_producto_full.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/layout/activity_producto_single.xml" value="0.19010416666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/layout/activity_register2.xml" value="0.19010416666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/layout/activity_welcome.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/menu/menu_main_activity.xml" value="0.19230769230769232" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/menu/menu_productoext_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/menu/menu_productofull_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/menu/menu_productosingle_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/menu/menu_register_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/App Nube de Luna/app/src/main/res/menu/menu_welcome_activity.xml" value="0.20416666666666666" />
         <entry key="..\:/DOWNLOADS/androidstudioprojects/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20277777777777778" />
         <entry key="..\:/DOWNLOADS/androidstudioprojects/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20277777777777778" />
         <entry key="..\:/DOWNLOADS/androidstudioprojects/app/src/main/res/drawable/imagen_nubedeluna.xml" value="0.2203125" />

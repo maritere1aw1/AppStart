@@ -33,33 +33,36 @@
     <string name="test_search">Buscar</string>
     <string name="test_Category">Categoria</string>
     <string name="txt_Task_1">Extra grande</string>
-    <string name="txt_Task_2">cama doble </string>
-    <string name="txt_Task_3">camade soltero</string>
+    <string name="txt_Task_2">Cama doble </string>
+    <string name="txt_Task_3">Cama soltero</string>
     <string name="txt_Task">Tarea</string>
     <string name="txt_Hora">Hora</string>
     <string name="txt_Lugar">lugar</string>
-    <string name="txt_ExGra">Juego de Sábanas Cama Extra doble
-        Extra suaves de microfibra cepillada
-        Dimensiones: ancho: 1.60m-largo:2.00m
+    <string name="txt_Seleccion">Seleccione una Categoria</string>
+    <string name="txt_ExGra"> Juego de Sábanas
+        en microfibra cepillada
+        Ancho: 1.60m - largo:2.00m
         Especificación: 80% polister-20% algodón
-        Referencia: flamencos
-        Color: azul</string>
+        </string>
     <string name="txt_full">Juego de Sábanas Cama doble
-        Extra suaves de microfibra cepillada
+        de microfibra cepillada
         Dimensiones: ancho:1.40m-largo:1.90m
         Especificación: 80% poliester-20% algodón
         Referencia: armonía
-        Color: beige</string>
-    <string name="txt_Single">Juego de sábanas Cama Sencilla
-        Extra suaves de microfibra cepillada
+        </string>
+    <string name="txt_Single">Juego de sábanas Sencilla
+        de microfibra cepillada
         Dimensiones: ancho: 1.00m-largo: 1.90m
         Especificación: 80% poliester-20% algodón
         Referencia: primavera
-        Color: ámbar</string>
+        </string>
 
     <string name="txt_Welcome">Bienvenido a su tienda en linea </string>
     <string name="test_Seller">vendedor</string>
     <string name="txt_Store">Tienda</string>
+    <string name="txt_Color">Color Beige</string>
+    <string name="app_label" />
+    <string name="search_hint" />
 
 
 

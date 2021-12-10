@@ -17,11 +17,21 @@
             android:id="@+id/my_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@android:color/primary_text_dark"
             android:elevation="4dp"
+            android:background="#009688"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:titleTextColor="@android:color/primary_text_dark" />
-
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/txt_Seleccion"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/teal_700"
+            android:textSize="27sp"
+            app:cornerRadius="50dp" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -116,8 +126,8 @@
                 android:padding="10dp">
 
                 <TextView
-                    android:layout_width="72dp"
-                    android:layout_height="56dp"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:text="@string/txt_Task_3"
@@ -126,7 +136,7 @@
 
                 <Button
                     android:id="@+id/btn_3"
-                    android:layout_width="65dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
@@ -163,9 +173,9 @@
             <ImageView
                 android:id="@+id/image_tienda"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="234dp"
                 android:layout_gravity="center"
-                android:src="@drawable/luna" />
+                android:src="@drawable/nubedeluna" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -173,11 +183,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.fragment.app.FragmentContainerView
-                android:id="@+id/fragmentContainerView"
-                android:name="com.example.appnubedeluna.DetailFragment"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
         </LinearLayout>
 
     </LinearLayout>

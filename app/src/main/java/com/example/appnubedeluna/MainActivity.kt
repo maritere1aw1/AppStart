@@ -1,6 +1,7 @@
 package com.example.appnubedeluna
 
-import android.content.res.Configuration
+
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -8,9 +9,7 @@ import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.gms.dynamic.SupportFragmentWrapper
 import com.google.firebase.auth.FirebaseAuth
-import android.content.Intent as Intent
 
 class MainActivity : AppCompatActivity() {
     private var edtUsername: EditText? = null
@@ -22,6 +21,9 @@ class MainActivity : AppCompatActivity() {
 
         edtUsername = findViewById(R.id.edtUsername)
         edtPassword = findViewById(R.id.edtPassword)
+
+        supportActionBar!!.setDisplayHomeAsUpEnabled(false)
+        supportActionBar!!.setIcon(R.mipmap.ic_launcher)
 
     }
 
@@ -87,27 +89,39 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main_activity, menu)
+
         return super.onCreateOptionsMenu(menu)
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId) {
-        R.id.action_search -> {
-            Toast.makeText(this,R.string.txt_action_search, Toast.LENGTH_LONG).show()
-            true
-        }
-        R.id.action_settings -> {
-            Toast.makeText(this,R.string.txt_action_settings, Toast.LENGTH_LONG).show()
-            true
-        }
-        R.id.action_logout -> {
-            Toast.makeText(this,R.string.txt_action_logout, Toast.LENGTH_LONG).show()
-            true
-        }
-        else -> {
-            super.onOptionsItemSelected(item)
-        }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_logout -> {
+                Toast.makeText(this, R.string.txt_action_logout, Toast.LENGTH_LONG).show()
+                true
+                finish()
+            }
+            R.id.action_search -> {
+                Toast.makeText(this, R.string.txt_action_search, Toast.LENGTH_LONG).show()
+                true
+
+            }
+            R.id.action_settings -> {
+                Toast.makeText(this, R.string.txt_action_settings, Toast.LENGTH_LONG).show()
+                true
+            }
 
 
+
+        }
+        return super.onOptionsItemSelected(item)
     }
 
+    fun ontextview(view: android.view.View) {
+        val intento = Intent(this,RegisterActivity::class.java)
+        startActivity(intento)
     }
+
+
+
+}
